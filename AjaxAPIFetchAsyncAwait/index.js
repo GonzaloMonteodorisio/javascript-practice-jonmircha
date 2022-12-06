@@ -40,28 +40,7 @@ const url = 'https://jsonplaceholder.typicode.com/user';
     } finally {
       console.info('Estoy en el finally');
     };
-
-
   };
 
   getData();
-
-
-
-    // .then(res => {
-    //   console.info('res: ', res);
-    //   return res.ok ? res.json() : Promise.reject(res);
-    // })
-    // .then(data => {
-    //   console.info('data: ', data);
-
-
-    //   $fetch.appendChild($fragment);
-    // })
-    // .catch(err => {
-    //   console.info(err)
-    //   let message = err.statusText || 'Ocurrió un error';
-    //   $fetch.innerHTML = `Error ${err.status}: ${message}`;
-    // })
-    // .finally('Esto se ejecutará independientemente del resultado de la promesa Fetch')
 })();
