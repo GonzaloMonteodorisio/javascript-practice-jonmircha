@@ -26,39 +26,24 @@
       "constelacion": "Fénix"
     },
     {
-      "nombre": "Mü",
+      "nombre": "Mu",
       "constelacion": "Aries",
       "id": 6
     },
     {
-      "nombre": "Aldebaran",
-      "constelacion": "Tauro",
+      "nombre": "Miguel",
+      "constelacion": "Ángel",
       "id": 7
     },
     {
-      "nombre": "Saga",
-      "constelacion": "Geminis",
+      "nombre": "Pepe",
+      "constelacion": "Andrómeda",
       "id": 8
     },
     {
-      "nombre": "Máscara de Muerte",
-      "constelacion": "Cancer",
+      "nombre": "Juan",
+      "constelacion": "Marte",
       "id": 9
-    },
-    {
-      "nombre": "Aioria",
-      "constelacion": "Leo",
-      "id": 10
-    },
-    {
-      "nombre": "Shaka",
-      "constelacion": "Virgo",
-      "id": 11
-    },
-    {
-      "nombre": "Dohko",
-      "constelacion": "Libra",
-      "id": 12
     }
   ],
   "dioses": [
