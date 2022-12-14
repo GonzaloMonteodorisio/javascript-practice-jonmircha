@@ -28,7 +28,7 @@ const ajax = (options) => {
   xhr.setRequestHeader('Content-Type', 'application/json;charset=utf-8');
 
   xhr.send(JSON.stringify(data));
-}
+};
 
 const getAll = () => {
   ajax(
@@ -57,7 +57,7 @@ const getAll = () => {
       }
     }
   );
-}
+};
 
 d.addEventListener('DOMContentLoaded', getAll);
 
