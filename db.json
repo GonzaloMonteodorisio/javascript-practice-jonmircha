@@ -1,16 +1,6 @@
 {
   "santos": [
     {
-      "id": 1,
-      "nombre": "Seiya",
-      "constelacion": "Pegaso"
-    },
-    {
-      "id": 2,
-      "nombre": "Shiryu",
-      "constelacion": "Dragón"
-    },
-    {
       "id": 3,
       "nombre": "Hyoga",
       "constelacion": "Cisne"
@@ -29,16 +19,6 @@
       "nombre": "Mu",
       "constelacion": "Aries",
       "id": 6
-    },
-    {
-      "nombre": "Miguel",
-      "constelacion": "Ángel",
-      "id": 7
-    },
-    {
-      "nombre": "Pepe",
-      "constelacion": "Andrómeda",
-      "id": 8
     }
   ],
   "dioses": [

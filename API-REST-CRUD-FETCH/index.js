@@ -15,7 +15,7 @@ const getAll = async() => {
       statusText: response.statusText || 'Ocurrió un error al solicitar los datos'
     };
     let data = await response.json();
-    console.info('data', data);
+    console.info('data: ', data);
 
     data.forEach(el => {
       $templateContent.querySelector('.name').textContent = el.nombre;
