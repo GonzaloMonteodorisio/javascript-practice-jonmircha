@@ -1,7 +1,15 @@
-function createCube(size) {
-  return ''
+const template = () => {
+  if (template.data.todoList.length < 1) {
+    return `<p><em>Lista sin tareas por hacer.</em></p>`;
+  }
+
+  let todos = template.data.todoList.map(item => `<li>${item}</li>`).join('');
+  return todos;
 }
 
-const cube = createCube(3);
+template.data = {
+  todoList: []
+}
 
-console.info(cube);
+console.info('template.data: ', template.data);
+console.info('template(): ', template());
